@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 130px;
+  padding: 10px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #424141;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.menu {
+  display: flex;
+
+  list-style: none;
+}
+.item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.item:hover {
+  color: aqua;
+}
+.banner-img {
+  width: 350px;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, #1b1b1b, #181717);
+  color: white;
+}
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.title-heading {
+  text-align: center;
+  padding: 10px 0;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.title-1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.icon {
+  width: 100px;
+}
+.service-container {
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, #2d2d2d, #323232);
+}
+.box {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 200px;
+  height: 240px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 4px 2px 105px gray;
+}
+.s-title {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+.s-title-1 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.s-description {
+  margin: 10px 0;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-2 {
+  margin-top: 20px;
+  padding: 13px 20px;
+  outline: none;
+  background-color: #1c1b1b;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+}
