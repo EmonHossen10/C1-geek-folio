@@ -78,6 +78,7 @@
 .service-container {
   background-image: url("./images/background.png"),
     linear-gradient(45deg, #2d2d2d, #323232);
+    height: 506px;
 }
 .box {
   background-color: rgb(0, 0, 0);
@@ -96,6 +97,7 @@
   padding: 20px 0;
   text-align: center;
   color: white;
+  padding-top: 80px;
 }
 .s-title-1 {
   font-size: 30px;
@@ -117,4 +119,46 @@
   border: none;
   color: white;
   margin-bottom: 10px;
+}
+.footer-container{
+  
+   
+  padding-top: 100px;
+  color: white;
+  line-height: 1.8em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ padding-bottom: 120px;
+ list-style: none;
+}
+.footer-background{
+  background-image: url("./images/background.png"),linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.9 ));
+  width: 100%;
+}
+.logo-footer{
+  width: 220px;
+  padding-bottom: 20px;
+}
+.footer-description{
+  font-size: 20px;
+}
+.footer-title{
+font-size: 25px;
+margin-bottom: 30px;
+}
+li{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.copy{
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  font-size: smaller;
+}
+.hr{
+  width: 80%;
+  margin-left: 9%;
+  opacity: 0.5;
 }
